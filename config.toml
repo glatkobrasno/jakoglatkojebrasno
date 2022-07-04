@@ -57,7 +57,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   list = "left"  # Configure layout for list pages
   single = false # Configure layout for single pages
   # Enable widgets in given order
-  widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+  widgets = ["search", "recent", "categories", "taglist", "languages"]
   # alternatively "ddg-search" can be used, to search via DuckDuckGo
   # widgets = ["ddg-search", "recent", "categories", "taglist", "social", "languages"]
 
@@ -68,22 +68,22 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
 [Params.widgets.social]
   # Enable parts of social widget
-  facebook = "username"
-  twitter = "username"
-  instagram = "username"
-  linkedin = "username"
-  telegram = "username"
-  github = "username"
-  gitlab = "username"
-  bitbucket = "username"
-  email = "example@example.com"
+#  facebook = "username"
+#  twitter = "username"
+#  instagram = "username"
+#  linkedin = "username"
+#  telegram = "username"
+#  github = "username"
+#  gitlab = "username"
+#  bitbucket = "username"
+#  email = "example@example.com"
 
 # Custom social links
 [[Params.widgets.social.custom]]
-  title = "Youtube"
-  url = "https://youtube.com/user/username"
-  icon = "youtube.svg" # Optional. Path relative to "layouts/partials"
+#  title = "Youtube"
+#  url = "https://youtube.com/user/username"
+#  icon = "youtube.svg" # Optional. Path relative to "layouts/partials"
 
 [[Params.widgets.social.custom]]
   title = "My Home Page"
-  url = "https://example.com"
+#  url = "https://example.com"
